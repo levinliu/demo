@@ -1,0 +1,9 @@
+pybrain
+pandas
+sklearn==0.0
+#scikit-learn
+statsmodels
+numpy
+tensorflow
+dtw
+matplotlib

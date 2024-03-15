@@ -1,0 +1,256 @@
+ator@HPPC-LL MINGW64 /d/PycharmProjects/ai-ops/aiopstools-master
+$ python setup.py install
+running install
+D:\PycharmProjects\ai-ops\venv\lib\site-packages\setuptools\_distutils\cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+ctypes - dll - kernel32 - 4096
+D:\PycharmProjects\ai-ops\venv\lib\site-packages\setuptools\_distutils\cmd.py:66: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running bdist_egg
+running egg_info
+creating AIops_tools.egg-info
+writing AIops_tools.egg-info\PKG-INFO
+writing dependency_links to AIops_tools.egg-info\dependency_links.txt
+writing requirements to AIops_tools.egg-info\requires.txt
+writing top-level names to AIops_tools.egg-info\top_level.txt
+writing manifest file 'AIops_tools.egg-info\SOURCES.txt'
+reading manifest file 'AIops_tools.egg-info\SOURCES.txt'
+adding license file 'AUTHORS'
+writing manifest file 'AIops_tools.egg-info\SOURCES.txt'
+installing library code to build\bdist.win-amd64\egg
+running install_lib
+running build_py
+creating build
+creating build\lib
+creating build\lib\aiopstools
+copying aiopstools\__init__.py -> build\lib\aiopstools
+creating build\lib\aiopstools\anomaly_detection
+copying aiopstools\anomaly_detection\get_timeseries_data.py -> build\lib\aiopstools\anomaly_detection
+copying aiopstools\anomaly_detection\voting.py -> build\lib\aiopstools\anomaly_detection
+copying aiopstools\anomaly_detection\_config.py -> build\lib\aiopstools\anomaly_detection
+copying aiopstools\anomaly_detection\__init__.py -> build\lib\aiopstools\anomaly_detection
+creating build\lib\aiopstools\association_analysis
+copying aiopstools\association_analysis\alarm_association.py -> build\lib\aiopstools\association_analysis
+copying aiopstools\association_analysis\apriori.py -> build\lib\aiopstools\association_analysis
+copying aiopstools\association_analysis\__init__.py -> build\lib\aiopstools\association_analysis
+creating build\lib\aiopstools\timeseries_predict
+copying aiopstools\timeseries_predict\__init__.py -> build\lib\aiopstools\timeseries_predict
+creating build\lib\aiopstools\anomaly_detection\models
+copying aiopstools\anomaly_detection\models\fitting.py -> build\lib\aiopstools\anomaly_detection\models
+copying aiopstools\anomaly_detection\models\iforest.py -> build\lib\aiopstools\anomaly_detection\models
+copying aiopstools\anomaly_detection\models\statistics.py -> build\lib\aiopstools\anomaly_detection\models
+copying aiopstools\anomaly_detection\models\__init__.py -> build\lib\aiopstools\anomaly_detection\models
+creating build\lib\aiopstools\timeseries_predict\accuracy
+copying aiopstools\timeseries_predict\accuracy\pct.py -> build\lib\aiopstools\timeseries_predict\accuracy
+copying aiopstools\timeseries_predict\accuracy\__init__.py -> build\lib\aiopstools\timeseries_predict\accuracy
+creating build\lib\aiopstools\timeseries_predict\handle_data
+copying aiopstools\timeseries_predict\handle_data\get_data.py -> build\lib\aiopstools\timeseries_predict\handle_data
+copying aiopstools\timeseries_predict\handle_data\process.py -> build\lib\aiopstools\timeseries_predict\handle_data
+copying aiopstools\timeseries_predict\handle_data\__init__.py -> build\lib\aiopstools\timeseries_predict\handle_data
+creating build\lib\aiopstools\timeseries_predict\models
+copying aiopstools\timeseries_predict\models\ann.py -> build\lib\aiopstools\timeseries_predict\models
+copying aiopstools\timeseries_predict\models\arima.py -> build\lib\aiopstools\timeseries_predict\models
+copying aiopstools\timeseries_predict\models\linear_regression.py -> build\lib\aiopstools\timeseries_predict\models
+copying aiopstools\timeseries_predict\models\lstm.py -> build\lib\aiopstools\timeseries_predict\models
+copying aiopstools\timeseries_predict\models\__init__.py -> build\lib\aiopstools\timeseries_predict\models
+creating build\lib\aiopstools\timeseries_predict\period_check
+copying aiopstools\timeseries_predict\period_check\periodic_check.py -> build\lib\aiopstools\timeseries_predict\period_check
+copying aiopstools\timeseries_predict\period_check\__init__.py -> build\lib\aiopstools\timeseries_predict\period_check
+creating build\lib\aiopstools\timeseries_predict\result_show
+copying aiopstools\timeseries_predict\result_show\get_figure.py -> build\lib\aiopstools\timeseries_predict\result_show
+copying aiopstools\timeseries_predict\result_show\__init__.py -> build\lib\aiopstools\timeseries_predict\result_show
+creating build\bdist.win-amd64
+creating build\bdist.win-amd64\egg
+creating build\bdist.win-amd64\egg\aiopstools
+creating build\bdist.win-amd64\egg\aiopstools\anomaly_detection
+copying build\lib\aiopstools\anomaly_detection\get_timeseries_data.py -> build\bdist.win-amd64\egg\aiopstools\anomaly_detection
+creating build\bdist.win-amd64\egg\aiopstools\anomaly_detection\models
+copying build\lib\aiopstools\anomaly_detection\models\fitting.py -> build\bdist.win-amd64\egg\aiopstools\anomaly_detection\models
+copying build\lib\aiopstools\anomaly_detection\models\iforest.py -> build\bdist.win-amd64\egg\aiopstools\anomaly_detection\models
+copying build\lib\aiopstools\anomaly_detection\models\statistics.py -> build\bdist.win-amd64\egg\aiopstools\anomaly_detection\models
+copying build\lib\aiopstools\anomaly_detection\models\__init__.py -> build\bdist.win-amd64\egg\aiopstools\anomaly_detection\models
+copying build\lib\aiopstools\anomaly_detection\voting.py -> build\bdist.win-amd64\egg\aiopstools\anomaly_detection
+copying build\lib\aiopstools\anomaly_detection\_config.py -> build\bdist.win-amd64\egg\aiopstools\anomaly_detection
+copying build\lib\aiopstools\anomaly_detection\__init__.py -> build\bdist.win-amd64\egg\aiopstools\anomaly_detection
+creating build\bdist.win-amd64\egg\aiopstools\association_analysis
+copying build\lib\aiopstools\association_analysis\alarm_association.py -> build\bdist.win-amd64\egg\aiopstools\association_analysis
+copying build\lib\aiopstools\association_analysis\apriori.py -> build\bdist.win-amd64\egg\aiopstools\association_analysis
+copying build\lib\aiopstools\association_analysis\__init__.py -> build\bdist.win-amd64\egg\aiopstools\association_analysis
+creating build\bdist.win-amd64\egg\aiopstools\timeseries_predict
+creating build\bdist.win-amd64\egg\aiopstools\timeseries_predict\accuracy
+copying build\lib\aiopstools\timeseries_predict\accuracy\pct.py -> build\bdist.win-amd64\egg\aiopstools\timeseries_predict\accuracy
+copying build\lib\aiopstools\timeseries_predict\accuracy\__init__.py -> build\bdist.win-amd64\egg\aiopstools\timeseries_predict\accuracy
+creating build\bdist.win-amd64\egg\aiopstools\timeseries_predict\handle_data
+copying build\lib\aiopstools\timeseries_predict\handle_data\get_data.py -> build\bdist.win-amd64\egg\aiopstools\timeseries_predict\handle_data
+copying build\lib\aiopstools\timeseries_predict\handle_data\process.py -> build\bdist.win-amd64\egg\aiopstools\timeseries_predict\handle_data
+copying build\lib\aiopstools\timeseries_predict\handle_data\__init__.py -> build\bdist.win-amd64\egg\aiopstools\timeseries_predict\handle_data
+creating build\bdist.win-amd64\egg\aiopstools\timeseries_predict\models
+copying build\lib\aiopstools\timeseries_predict\models\ann.py -> build\bdist.win-amd64\egg\aiopstools\timeseries_predict\models
+copying build\lib\aiopstools\timeseries_predict\models\arima.py -> build\bdist.win-amd64\egg\aiopstools\timeseries_predict\models
+copying build\lib\aiopstools\timeseries_predict\models\linear_regression.py -> build\bdist.win-amd64\egg\aiopstools\timeseries_predict\models
+copying build\lib\aiopstools\timeseries_predict\models\lstm.py -> build\bdist.win-amd64\egg\aiopstools\timeseries_predict\models
+copying build\lib\aiopstools\timeseries_predict\models\__init__.py -> build\bdist.win-amd64\egg\aiopstools\timeseries_predict\models
+creating build\bdist.win-amd64\egg\aiopstools\timeseries_predict\period_check
+copying build\lib\aiopstools\timeseries_predict\period_check\periodic_check.py -> build\bdist.win-amd64\egg\aiopstools\timeseries_predict\period_check
+copying build\lib\aiopstools\timeseries_predict\period_check\__init__.py -> build\bdist.win-amd64\egg\aiopstools\timeseries_predict\period_check
+creating build\bdist.win-amd64\egg\aiopstools\timeseries_predict\result_show
+copying build\lib\aiopstools\timeseries_predict\result_show\get_figure.py -> build\bdist.win-amd64\egg\aiopstools\timeseries_predict\result_show
+copying build\lib\aiopstools\timeseries_predict\result_show\__init__.py -> build\bdist.win-amd64\egg\aiopstools\timeseries_predict\result_show
+copying build\lib\aiopstools\timeseries_predict\__init__.py -> build\bdist.win-amd64\egg\aiopstools\timeseries_predict
+copying build\lib\aiopstools\__init__.py -> build\bdist.win-amd64\egg\aiopstools
+byte-compiling build\bdist.win-amd64\egg\aiopstools\anomaly_detection\get_timeseries_data.py to get_timeseries_data.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\anomaly_detection\models\fitting.py to fitting.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\anomaly_detection\models\iforest.py to iforest.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\anomaly_detection\models\statistics.py to statistics.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\anomaly_detection\models\__init__.py to __init__.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\anomaly_detection\voting.py to voting.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\anomaly_detection\_config.py to _config.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\anomaly_detection\__init__.py to __init__.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\association_analysis\alarm_association.py to alarm_association.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\association_analysis\apriori.py to apriori.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\association_analysis\__init__.py to __init__.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\timeseries_predict\accuracy\pct.py to pct.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\timeseries_predict\accuracy\__init__.py to __init__.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\timeseries_predict\handle_data\get_data.py to get_data.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\timeseries_predict\handle_data\process.py to process.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\timeseries_predict\handle_data\__init__.py to __init__.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\timeseries_predict\models\ann.py to ann.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\timeseries_predict\models\arima.py to arima.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\timeseries_predict\models\linear_regression.py to linear_regression.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\timeseries_predict\models\lstm.py to lstm.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\timeseries_predict\models\__init__.py to __init__.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\timeseries_predict\period_check\periodic_check.py to periodic_check.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\timeseries_predict\period_check\__init__.py to __init__.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\timeseries_predict\result_show\get_figure.py to get_figure.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\timeseries_predict\result_show\__init__.py to __init__.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\timeseries_predict\__init__.py to __init__.cpython-310.pyc
+byte-compiling build\bdist.win-amd64\egg\aiopstools\__init__.py to __init__.cpython-310.pyc
+creating build\bdist.win-amd64\egg\EGG-INFO
+copying AIops_tools.egg-info\PKG-INFO -> build\bdist.win-amd64\egg\EGG-INFO
+copying AIops_tools.egg-info\SOURCES.txt -> build\bdist.win-amd64\egg\EGG-INFO
+copying AIops_tools.egg-info\dependency_links.txt -> build\bdist.win-amd64\egg\EGG-INFO
+copying AIops_tools.egg-info\requires.txt -> build\bdist.win-amd64\egg\EGG-INFO
+copying AIops_tools.egg-info\top_level.txt -> build\bdist.win-amd64\egg\EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist\AIops_tools-0.0.0-py3.10.egg' and adding 'build\bdist.win-amd64\egg' to it
+removing 'build\bdist.win-amd64\egg' (and everything under it)
+Processing AIops_tools-0.0.0-py3.10.egg
+Copying AIops_tools-0.0.0-py3.10.egg to d:\pycharmprojects\ai-ops\venv\lib\site-packages
+Adding AIops-tools 0.0.0 to easy-install.pth file
+
+Installed d:\pycharmprojects\ai-ops\venv\lib\site-packages\aiops_tools-0.0.0-py3.10.egg
+Processing dependencies for AIops-tools==0.0.0
+Searching for matplotlib
+Reading https://pypi.org/simple/matplotlib/
+Downloading https://files.pythonhosted.org/packages/46/37/b5e27ab30ecc0a3694c8a78287b5ef35dad0c3095c144fcc43081170bfd6/matplotlib-3.8.2-cp310-cp310-win_amd64.whl#sha256=830f00640c965c5b7f6bc32f0d4ce0c36dfe0379f7dd65b07a00c801713ec40a
+Best match: matplotlib 3.8.2
+Processing matplotlib-3.8.2-cp310-cp310-win_amd64.whl
+Installing matplotlib-3.8.2-cp310-cp310-win_amd64.whl to d:\pycharmprojects\ai-ops\venv\lib\site-packages
+Adding matplotlib 3.8.2 to easy-install.pth file
+detected new path './aiops_tools-0.0.0-py3.10.egg'
+
+Installed d:\pycharmprojects\ai-ops\venv\lib\site-packages\matplotlib-3.8.2-py3.10-win-amd64.egg
+Searching for dtw
+Reading https://pypi.org/simple/dtw/
+Downloading https://files.pythonhosted.org/packages/66/a0/21d6ec377b8d5832218700e236205f8cdea38b3b2cdd0a732be170e2809b/dtw-1.4.0.tar.gz#sha256=6be2d561cbebede2550d877b32ea4b5c058dced6a846603d7881d214c29f88bc
+Best match: dtw 1.4.0
+Processing dtw-1.4.0.tar.gz
+Writing C:\Users\ADMINI~1\AppData\Local\Temp\easy_install-_6c3q4ha\dtw-1.4.0\setup.cfg
+Running dtw-1.4.0\setup.py -q bdist_egg --dist-dir C:\Users\ADMINI~1\AppData\Local\Temp\easy_install-_6c3q4ha\dtw-1.4.0\egg-dist-tmp-qt01cow1
+C:\Users\ADMINI~1\AppData\Local\Temp\easy_install-_6c3q4ha\dtw-1.4.0\setup.py:3: DeprecationWarning: the imp module is deprecated in favour of importlib and slated for removal in Python 3.12; see the module's documentation for alternative uses
+  import imp
+D:\PycharmProjects\ai-ops\venv\lib\site-packages\setuptools\_distutils\cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+zip_safe flag not set; analyzing archive contents...
+Adding dtw 1.4.0 to easy-install.pth file
+detected new path './matplotlib-3.8.2-py3.10-win-amd64.egg'
+
+Installed d:\pycharmprojects\ai-ops\venv\lib\site-packages\dtw-1.4.0-py3.10.egg
+Searching for tensorflow
+Reading https://pypi.org/simple/tensorflow/
+Downloading https://files.pythonhosted.org/packages/7c/3c/049400232ee2897d613db9009e42269417166c3f8519d46e5c97b6f9e206/tensorflow-2.15.0-cp310-cp310-win_amd64.whl#sha256=2d88f8b71f4a8d9ab9dc7c8e42b14ca0f53d1daab0f989b8f2918907c2891f41
+Best match: tensorflow 2.15.0
+Processing tensorflow-2.15.0-cp310-cp310-win_amd64.whl
+Installing tensorflow-2.15.0-cp310-cp310-win_amd64.whl to d:\pycharmprojects\ai-ops\venv\lib\site-packages
+Adding tensorflow 2.15.0 to easy-install.pth file
+detected new path './dtw-1.4.0-py3.10.egg'
+
+Installed d:\pycharmprojects\ai-ops\venv\lib\site-packages\tensorflow-2.15.0-py3.10-win-amd64.egg
+Searching for numpy
+Reading https://pypi.org/simple/numpy/
+Downloading https://files.pythonhosted.org/packages/be/b0/611101990ddac767e54e2d27d1f4576ae1662cca64e2d55ef0e62558ec26/numpy-1.26.3-cp310-cp310-win_amd64.whl#sha256=9e1591f6ae98bcfac2a4bbf9221c0b92ab49762228f38287f6eeb5f3f55905ce
+Best match: numpy 1.26.3
+Processing numpy-1.26.3-cp310-cp310-win_amd64.whl
+Installing numpy-1.26.3-cp310-cp310-win_amd64.whl to d:\pycharmprojects\ai-ops\venv\lib\site-packages
+Adding numpy 1.26.3 to easy-install.pth file
+detected new path './tensorflow-2.15.0-py3.10-win-amd64.egg'
+Installing f2py-script.py script to D:\PycharmProjects\ai-ops\venv\Scripts
+Installing f2py.exe script to D:\PycharmProjects\ai-ops\venv\Scripts
+
+Installed d:\pycharmprojects\ai-ops\venv\lib\site-packages\numpy-1.26.3-py3.10-win-amd64.egg
+Searching for statsmodels
+Reading https://pypi.org/simple/statsmodels/
+Downloading https://files.pythonhosted.org/packages/6d/c8/46d355b3c2d04881ce745c667eba6b08ea2215a1ccae875c64b725c3d348/statsmodels-0.14.1-cp310-cp310-win_amd64.whl#sha256=0a8aae75a2e08ebd990e5fa394f8e32738b55785cb70798449a3f4207085e667
+Best match: statsmodels 0.14.1
+Processing statsmodels-0.14.1-cp310-cp310-win_amd64.whl
+Installing statsmodels-0.14.1-cp310-cp310-win_amd64.whl to d:\pycharmprojects\ai-ops\venv\lib\site-packages
+Adding statsmodels 0.14.1 to easy-install.pth file
+detected new path './numpy-1.26.3-py3.10-win-amd64.egg'
+
+Installed d:\pycharmprojects\ai-ops\venv\lib\site-packages\statsmodels-0.14.1-py3.10-win-amd64.egg
+Searching for sklearn
+Reading https://pypi.org/simple/sklearn/
+Downloading https://files.pythonhosted.org/packages/46/1c/395a83ee7b2d2ad7a05b453872053d41449564477c81dc356f720b16eac4/sklearn-0.0.post12.tar.gz#sha256=54cff9e20839b7b202321178228af4d9388bedf78425d9299fd9ee170d68802e
+Best match: sklearn 0.0.post12
+Processing sklearn-0.0.post12.tar.gz
+Writing C:\Users\ADMINI~1\AppData\Local\Temp\easy_install-0274hgzh\sklearn-0.0.post12\setup.cfg
+Running sklearn-0.0.post12\setup.py -q bdist_egg --dist-dir C:\Users\ADMINI~1\AppData\Local\Temp\easy_install-0274hgzh\sklearn-0.0.post12\egg-dist-tmp-oc22qbue
+error: Setup script exited with The 'sklearn' PyPI package is deprecated, use 'scikit-learn'
+rather than 'sklearn' for pip commands.
+
+Here is how to fix this error in the main use cases:
+- use 'pip install scikit-learn' rather than 'pip install sklearn'
+- replace 'sklearn' by 'scikit-learn' in your pip requirements files
+  (requirements.txt, setup.py, setup.cfg, Pipfile, etc ...)
+- if the 'sklearn' package is used by one of your dependencies,
+  it would be great if you take some time to track which package uses
+  'sklearn' instead of 'scikit-learn' and report it to their issue tracker
+- as a last resort, set the environment variable
+  SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True to avoid this error
+
+More information is available at
+https://github.com/scikit-learn/sklearn-pypi-package
